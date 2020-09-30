@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "390508284284",
+    "firebase_url": "https://golocalfinal.firebaseio.com",
+    "project_id": "golocalfinal",
+    "storage_bucket": "golocalfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390508284284:android:bb328aab08c7f6bbcabcf9",
+        "android_client_info": {
+          "package_name": "com.example.android.golocalfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390508284284-upov2avetucrq6a0hhfgaidet6u7i2hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrkE5Kss0Lo4fsbwdZQyqWaC_Vboufd7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390508284284-upov2avetucrq6a0hhfgaidet6u7i2hd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

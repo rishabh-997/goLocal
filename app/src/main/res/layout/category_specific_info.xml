@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:overrideLibrary="com.google.firebase.auth"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarForLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b3e5fc">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/toolbarForLogout"
+        >
+        <EditText
+            android:id="@+id/editTextProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Product name"
+            >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextQuantityAvailable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quantity Available"
+            android:inputType="number"
+            >
+        </EditText>
+        <Button
+            android:id="@+id/buttonAddNewProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Category"
+            android:background="@drawable/rounded_button_transparent"
+            >
+        </Button>
+
+        <TextView
+            android:id="@+id/textViewCategoryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Categories of items sold"
+            >
+        </TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/recyclerViewProducts"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
